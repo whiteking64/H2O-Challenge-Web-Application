@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "h2o-challenge-18352"
+  },
+  "targets": {
+    "h2o-challenge-18352": {
+      "hosting": {
+        "test": ["h2o-challenge-test"],
+        "staging": ["h2o-challenge-staging-6b920"],
+        "prod": ["h2o-challenge-prod-6b920"]
+      }
+    }
+  }
+}
